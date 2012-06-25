@@ -26,6 +26,7 @@
 
 - (void) performMonitoring:(id)sender
 {
+  // http://caniturniton.com/api/json
   @autoreleasepool {
     while (monitorRunning) {
       NSURL *url = [NSURL URLWithString:@"http://caniturniton.com/api/json"];
