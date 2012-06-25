@@ -15,10 +15,10 @@
 		0CCC452215985C3B00D5FC0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC452115985C3B00D5FC0D /* AppDelegate.m */; };
 		0CCC452515985C3B00D5FC0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC452415985C3B00D5FC0D /* ViewController.m */; };
 		0CCC452815985C3B00D5FC0D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC452615985C3B00D5FC0D /* ViewController.xib */; };
-		0CCC453015985CA700D5FC0D /* GridMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC452F15985CA700D5FC0D /* GridMonitor.m */; };
 		0CCC45461598697700D5FC0D /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC45431598697700D5FC0D /* green.png */; };
 		0CCC45471598697700D5FC0D /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC45441598697700D5FC0D /* grey.png */; };
 		0CCC45481598697700D5FC0D /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC45451598697700D5FC0D /* red.png */; };
+		0CCC454B15986A9F00D5FC0D /* GridMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC454A15986A9F00D5FC0D /* GridMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		0CCC452315985C3B00D5FC0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0CCC452415985C3B00D5FC0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0CCC452715985C3B00D5FC0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		0CCC452E15985CA700D5FC0D /* GridMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GridMonitor.h; path = ../GridMonitor.h; sourceTree = "<group>"; };
-		0CCC452F15985CA700D5FC0D /* GridMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GridMonitor.m; path = ../GridMonitor.m; sourceTree = "<group>"; };
 		0CCC45431598697700D5FC0D /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
 		0CCC45441598697700D5FC0D /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
 		0CCC45451598697700D5FC0D /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		0CCC454915986A9F00D5FC0D /* GridMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridMonitor.h; sourceTree = "<group>"; };
+		0CCC454A15986A9F00D5FC0D /* GridMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		0CCC451715985C3B00D5FC0D /* KettleBackup */ = {
 			isa = PBXGroup;
 			children = (
-				0CCC452E15985CA700D5FC0D /* GridMonitor.h */,
-				0CCC452F15985CA700D5FC0D /* GridMonitor.m */,
+				0CCC454915986A9F00D5FC0D /* GridMonitor.h */,
+				0CCC454A15986A9F00D5FC0D /* GridMonitor.m */,
 				0CCC452015985C3B00D5FC0D /* AppDelegate.h */,
 				0CCC452115985C3B00D5FC0D /* AppDelegate.m */,
 				0CCC452315985C3B00D5FC0D /* ViewController.h */,
@@ -181,7 +181,7 @@
 				0CCC451E15985C3B00D5FC0D /* main.m in Sources */,
 				0CCC452215985C3B00D5FC0D /* AppDelegate.m in Sources */,
 				0CCC452515985C3B00D5FC0D /* ViewController.m in Sources */,
-				0CCC453015985CA700D5FC0D /* GridMonitor.m in Sources */,
+				0CCC454B15986A9F00D5FC0D /* GridMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
