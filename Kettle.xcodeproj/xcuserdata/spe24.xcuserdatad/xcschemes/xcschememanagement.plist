@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>KettleBackup.xcscheme</key>
+		<key>Kettle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0CCC450C15985C3B00D5FC0D</key>
+		<key>0CCC45561598701C00D5FC0D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

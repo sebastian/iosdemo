@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'KettleBackup' target in the 'KettleBackup' project
+// Prefix header for all source files of the 'Kettle' target in the 'Kettle' project
 //
 
 #import <Availability.h>

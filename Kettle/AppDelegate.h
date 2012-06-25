@@ -9,14 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @class ViewController;
-@class GridMonitor;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate> {
-  GridMonitor *monitor;
-}
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) ViewController *viewController;
 
 @end

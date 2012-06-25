@@ -8,12 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
-@synthesize statusImage;
 
 #pragma mark - ViewControllerCallbacks
 
@@ -24,7 +19,6 @@
 
 - (void)viewDidUnload
 {
-  [self setStatusImage:nil];
   [super viewDidUnload];
 }
 
@@ -33,20 +27,9 @@
   return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-
-#pragma mark - GridMonitorDelegate
-
-- (void)gridmonitor:(GridMonitor *)monitor canUseKettle:(BOOL)gridState 
-{
-  dispatch_async(dispatch_get_main_queue(), ^{
-    @autoreleasepool {
-      if (gridState == YES) {
-        [statusImage setImage:[UIImage imageNamed:@"green.png"]];
-      } else {
-        [statusImage setImage:[UIImage imageNamed:@"red.png"]];
-      }        
-    }
-  });
-}
+//dispatch_async(dispatch_get_main_queue(), ^{
+//  @autoreleasepool {
+//  }
+//});
 
 @end
